@@ -1,0 +1,122 @@
+-->login pg
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login
+        </title>
+        <div>
+        <p align="center" style="font-size:40px;">
+            <img src="clglogo.jpg" alt="college logo" align="center" height="100px" width="100px">
+            <b></b>Velammal College Of Engineering And Technology<br>
+            Viraganoor, Madurai-625009.</b>
+        </p>        
+        </div>
+        <style>
+            body{
+                background-image:url(bgpic2.jpg);
+            }
+            .login-container {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px black;
+        padding: 20px;
+        width: 300px;
+    }
+
+    .login-container h2 {
+        text-align: center;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .login-container input[type="submit"] {
+        background-color: blue;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .login-container input[type="submit"]:hover {
+        background-color: blue;
+    }
+</style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="#" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+        </style>
+
+    </head>
+</html>
+-->home pg
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .one{
+                height: 1000px;
+                width: 1000px;
+                background-color: lightpink;
+                margin-top: 50px;
+                margin-left: 250px;border-style: double;
+                border-width: 5px;
+                .two{
+                    height: 200px;
+                    width: 50px;
+                    border-bottom-color: darkblue;
+                    border-style: double;
+                    position: relative;
+                    }
+                    h3{
+                        position :relative;
+                        top :55px;
+                    }
+            }
+        </style>
+    </head>
+    <body style="background-color: plum">
+    <center>
+        <h1><img src=""></h1>
+<h2>Viraganur,Madurai.</h2>
+    </center>
+   
+    <div class="two"><h3 style="color:brown">Menus</h3><br>
+    <label for="user entry">user entry</label>
+   <select  name="user entry">
+            <option>update profile</option>
+            <option>change password</option>
+            <option>late comer</option>
+   </select><br><br>
+   <label for="ab">defaulter report</label>
+   <select  name="ab">
+            <option>edit</option>
+            <option>update</option>  
+   </select><br><br>
+   <label for="cb">absentees report</label>
+   <select  name="bc">
+            <option>edit</option>
+            <option>update</option>      
+   </select><br></div>
+    <div class="one"></div>
+    </body>
+</html>
